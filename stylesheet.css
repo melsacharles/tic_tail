@@ -1,0 +1,91 @@
+
+/*CSS here solely applies to header */
+
+
+
+.header {
+
+	/*height:150px;
+	/*width:100%;*/
+	background-color:white;
+	border:1px solid red;
+	padding-left: 225px;
+	padding-top:10px;
+	font-family: 'Lato';
+	color: #515357;
+}
+
+.fixed{
+
+	position:fixed;
+	height: 50px;
+	border: 1px solid red;
+	width: 100%;
+}
+
+.tictail_logo {
+
+	
+	padding-left:20px;
+	height:35px;
+	width:124px;
+}
+
+
+h2 {
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+
+
+h3 {}
+
+
+/* CSS here solely applies to section*/
+
+
+.content_form {
+
+	padding-left:220px;
+	background-color:rgb(252, 252, 252);
+	border:1px solid green;
+	color: #515357;
+	font-family:'Lato';
+}
+
+input {
+
+	padding-left:20px;
+
+
+}
+
+
+
+/*CSS here solely applies to footer*/
+
+.footer {
+	
+	height: 200px;
+	width: 100%;	
+	border:1px solid red;
+	background-color:#EDEEF1;
+	text-align:center;
+	font-family:'Lato';
+	text-decoration:none;
+}
+
+.lever_logo {
+
+	height:24px;
+	width: 98px;
+	
+
+}
+
+a .footer_tt_homepage{
+	color:red;
+
+
+}
