@@ -1,5 +1,5 @@
 
-/* header */
+/*CSS here solely applies to header */
 
 
 
@@ -53,7 +53,7 @@ h3 {	font-size:14px;
 }
 
 
-/* section */
+/* CSS here solely applies to section*/
 
 
 .content_form {
@@ -84,17 +84,16 @@ h4 {
 
 
 .comments{
-	height:200px;
+	height:400px;
 	width:800px;
 	font-family:"lato";
 	font-size:15px;
-	color:
 		
 
 }
 
 
-/* footer */
+/*CSS here solely applies to footer*/
 
 .footer {
 	
