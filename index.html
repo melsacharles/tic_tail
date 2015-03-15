@@ -1,70 +1,74 @@
 <!DOCTYPE html>
+<html>
 
-	<html>
+	<head>
+		<title>Tictail</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>	
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	</head>
 
-		<head>
-			<title>Tictail</title>
-			<link type="text/css" rel="stylesheet" href="stylesheet.css"/>	
-			<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-			
-	
-		</head>
-	
 
-		<body>
-	<!--PLEASE NOTE: Header starts here-->
-			<header class="header"> 
-				<div class="fixed">
-					<a href> <img class= "tictail_logo" src= "tictail.png" alt="tictail_picture"/> </a>
-				</div>
-			<div class="headings">
+	<body>
+<!-- Begin Header Section -->
+		<nav class="navigation">
+			<div class="container">
+				<a href=""> <img class= "tictail-logo" src= "tictail.png" alt="tictail-picture"/> </a>
+			</div>
+		</nav>
+
+		<!-- Begin Content Section -->
+		
+		<header class="heading">
+			<div class="container">
 				<h2> Technical Recruiter</h2>
 				<h3> STOCKHOLM, SWEDEN &nbsp;OPERATIONS</h3>
-			<div>
-			</header>
-	<!--PLEASE NOTE: Content starts here-->
-
-
-			<div class="content_form">
-			<section class ="form_header">
-				<h4 class ="submit_application">SUBMIT YOUR APPLICATION</h4>		
-				<p>Resume/CV <input type="text" class="resume" name="resume"/> </p>
-				<p>Full Name<span>*</span> <input type="text" class="full_name" name="full_name"/></p>
-				<p>Email<span>*<span> <input type="text" class="email" name="email"/></p>
-				<p>Phone <input type ="text" class="phone" name="phone"/></p>
-				<p>Current Company<input type="text" class="current_company" name="current_company"/></p>
-
-			</section>
-
-			<div class ="form_header">
-				<h4 class="">LINKS</h3>
-				<p>LinkedIn URL <input type="text" class="linkedin" name="linkedin_url"/></p>
-				<p>Github URL <input type="text" class="github" name="github_url"/></p>			
-				<p>Portfolio URL <input type="text" class="portfolio" name="portfolio_url"/></p>
 			</div>
+		</header>
 
-			<div class ="form_header">
-				<h4 class ="Additional_info"> ADDITIONAL INFORMATION</h4>
-				<textarea name="comments" class="comments"> Add a cover letter or anything else you want to share. </textarea>
-			</div>
-			</div>
+		<section class="application-form">
+			<form class="container content-form">
+				<fieldset>
+					<legend>SUBMIT YOUR APPLICATION</legend>		
+					<p>
+						<label for="resume">Resume/CV</label>
+						<input type="text" name="resume" id="resume"/>
+					</p>
+					<p>
+						<label for="full_name">Full Name<em>*</em></label>
+						<input type="text" name="full-name" id="full_name"/>
+					</p>
+					<p>Email<em>*</em> <input type="text" name="email"/></p>
+					<p>Phone <input type ="text" name="phone"/></p>
+					<p>Current Company<input type="text" name="current-company"/></p>
+				</fieldset>
 
+				<fieldset>
+					<legend>LINKS</legend>
+					<p>LinkedIn URL <input type="text" name="linkedin-url"/></p>
+					<p>Github URL <input type="text" name="github-url"/></p>			
+					<p>Portfolio URL <input type="text" name="portfolio-url"/></p>
+				</fieldset>
 
-	<!--PLEASE NOTE: Footer starts here-->
-			<footer class= "footer"> 
-			
-				<p class="footer_tt_homepage">
+				<fieldset>
+					<legend> ADDITIONAL INFORMATION</legend>
+					<textarea name="comments"> Add a coverletter or anything else you want to share. </textarea>
+				</fieldset>
+			</form>
+		</section>
+
+		<!--PLEASE NOTE: Footer starts here-->
+		<footer class= "footer"> 
+			<div class="container">		
+				<p class="footer-tt-homepage">
 					<a href= "https://tictail.com"> Tictail Home Page </a>
 				</p>
-				<p class="footer_jobs_powered">
+				<p class="footer-jobs-powered">
 					<a href= "https://lever.co"> Jobs powered by </a>
-				   	<a href= "https://lever.co"> <img src="lever_logo.png" class="lever_logo"/> </a>
+				   	<a href= "https://lever.co"> <img src="lever-logo.png" class="lever-logo"/> </a>
 				</p>
+			</div>
+		</footer>
 
-			</footer>
-
-
-		</body>
-
-	</html>
+	</body>
+</html>
 

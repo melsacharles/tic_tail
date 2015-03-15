@@ -1,41 +1,68 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-/* header */
-
-
-
-.header {
-
-	/*height:150px;
-	/*width:100%;*/
-	background-color:white;
-	border:1px solid red;
-	/*padding-left: 225px;*/
-	padding-top:10px;
-	font-family: 'Lato';
-	color: #515357;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.fixed{
+/** {
+	border: 1px solid green !important;
+}*/
 
-	position:fixed;
-	height: 50px;
-	border: 1px solid red;
-	width: 100%;
+body {
+	font-family:'Lato';
+
 }
 
-.tictail_logo {
-
-	
-	padding-left:280px;
-	height:35px;
-	width:124px;
+p {
+	line-height: 1.8rem;
 }
 
-
-.headings{
-	padding-left:270px;
-	}
-
+/* 
+ * Base
+ */
 
 h2 {
 	padding-top:40px;		
@@ -52,71 +79,102 @@ h3 {	font-size:14px;
 	
 }
 
-
-/* section */
-
-
-.content_form {
-
-	padding-left:220px;
-	background-color:rgb(249, 249, 249);
-	border:1px solid green;
-	color: #515357;
-	font-family:'Lato';
+h4 {
+	font-size:16px;
+	letter-spacing:2px;	
 }
 
 input {
-
 	padding-left:20px;
 
-
 }
 
 
-h4 {
+/*
+ * Layout
+ */
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
 
-	font-size:16px;
-	letter-spacing:2px;
+.navigation {
+	width: 100%;
+	position: fixed;
+	background-color: #fff;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	color: #515357;
+}
 
-	
+.fixed{
+
+	position:fixed;
+	height: 50px;
+	width: 100%;
+}
+
+.tictail-logo {
+	padding-left: .5rem;
+	height:35px;
+	width:124px;
 }
 
 
+.heading{
+	padding-top: 4rem;
+}
+
+
+.content-form {
+
+	/*padding-left:220px;*/
+	/*background-color:rgb(249, 249, 249);*/
+	color: #515357;
+	/*font-family:'Lato';*/
+}
 
 .comments{
-	height:200px;
+	height:400px;
 	width:800px;
-	font-family:"lato";
+	/*font-family:"lato";*/
 	font-size:15px;
-	color:
-		
+}
 
+.application-form {
+	width: 100%;
+	background-color: #ccc;
+}
+
+.application-form label {
+	display: inline-block;
+	width: 10rem;
+}
+
+.application-form input[type="text"] {
+	width: 20rem;
+	line-height: 1.6rem;
+	border: 0;
 }
 
 
-/* footer */
+/* 
+ * Footer
+ */
 
-.footer {
-	
+footer {
 	height: 200px;
-	width: 100%;	
-	border:1px solid red;
-	background-color:#EDEEF1;
-	text-align:center;
-	font-family:'Lato';
-	text-decoration:none;
+	width: 100%;
+	background-color: #EDEEF1;
+	text-align: center;
+	text-decoration: none;
 }
 
-.lever_logo {
-
+.lever-logo {
 	height:24px;
 	width: 98px;
-	
-
 }
 
-a .footer_tt_homepage{
+a .footer-tt-homepage{
 	color:red;
-
-
 }
