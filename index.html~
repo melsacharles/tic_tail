@@ -45,7 +45,7 @@
 
 			<div class ="form_header">
 				<h4 class ="Additional_info"> ADDITIONAL INFORMATION</h4>
-				<textarea name="comments" class="comments"> Add a cover letter or anything else you want to share. </textarea>
+				<textarea name="comments" class="comments"> Add a coverletter or anything else you want to share. </textarea>
 			</div>
 			</div>
 
