@@ -75,11 +75,17 @@ legend {
 	letter-spacing:2px;
 	padding-top:5%;
 	padding-bottom:5%;
-	
+}
 
+
+p label{
+	padding:2% 0 2%;
 
 }
 
+em {
+	color:red;
+}
 h2 {
 	padding-top:5%;
 	padding-bottom:4%;		
@@ -103,10 +109,10 @@ input {
 
 }
 
-
 /*
- * Layout
+ * Layout----------------------------------------------------------
  */
+
 .container {
 	width: 55%;
 	margin: 0 auto;
@@ -149,15 +155,15 @@ input {
 }
 
 .comments{
-	height:400px;
+	height:100px;
 	width:800px;
-	/*font-family:"lato";*/
+	font-family:"lato";
 	font-size:15px;
 }
 
 .application-form {
 	width: 100%;
-	background-color: #F4F4F4;
+	background-color: #F7F7F7;
 }
 
 .application-form label {
@@ -168,7 +174,7 @@ input {
 .application-form input[type="text"] {
 	width: 20rem;
 	line-height: 1.6rem;
-	border: 0;
+	border: 1px rgb(161, 161, 161);
 }
 
 
