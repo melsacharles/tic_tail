@@ -34,10 +34,13 @@
 						<label for="resume">Resume/CV</label>
 						<input type="text" name="resume" id="resume"/>
 					</p>
+
+
 					<p>
 						<label for="full_name">Full Name<em>*</em></label>
 						<input type="text" name="full-name" id="full_name"/>
 					</p>
+
 					<p>
 						<label for = "email" "/>Email<em>*</em></label>
 						<input type="text" name="email" id="email"/>
@@ -53,18 +56,8 @@
 
 				<fieldset>
 					<legend>LINKS</legend>
-
-					<p>
-						<label for="linkedin_url">Linkedin Url</label>
-						 <input type="text" name="linkedin-url" id="linkedin"/>
-					</p>
-
-					<p>Github URL 
-						<label for="github_url">Github Url</label>
-						<input type="text" name="github-url" id="url"/>
-
-
-					</p>			
+					<p>LinkedIn URL <input type="text" name="linkedin-url"/></p>
+					<p>Github URL <input type="text" name="github-url"/></p>			
 					<p>Portfolio URL <input type="text" name="portfolio-url"/></p>
 				</fieldset>
 
