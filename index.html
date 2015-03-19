@@ -18,6 +18,7 @@
 
 <!-- Begin Content Section -->
 		
+		<div clas="scroll">		
 		<header class="heading">
 			<div class="container">
 				<h2> Technical Recruiter</h2>
@@ -44,10 +45,10 @@
 					</p>
 
 					<p>	<label for = "phone"/>Phone<em>*</em></label> 
-						<input type ="text" name="phone"/>
+						<input type ="text" name="phone" id="phone"/>
 					</p>
 					<p>						
-						<label for = "current_email"/>Current Company<em>*</em></label> 							<input type="text" name="current-company"/>
+						<label for = "current_email"/>Current Company<em>*</em></label> 						<input type="text" name="current-company" id="current_company"/>
 					</p>
 				</fieldset>
 
@@ -67,12 +68,16 @@
 						<input type="text" name="portfolio-url" id="portfolio"/></p>
 				</fieldset>
 
-				<fieldset>
+				<fieldset id="comments">
 					<legend> ADDITIONAL INFORMATION</legend>
-					<textarea name="comments" class="comments"> Add a coverletter or anything else you want to share. </textarea>
+						
+					<textarea name="comments" class="comments"> Add a cover letter or anything else you want to share. 
+					</textarea>
+				
 				</fieldset>
 			</form>
 		</section>
+	
 
 <!--Begin footer section-->
 		<footer class= "footer"> 
@@ -84,9 +89,9 @@
 					<a href= "https://lever.co"> Jobs powered by </a>
 				   	<a href= "https://lever.co"> <img src="lever-logo.png" class="lever-logo"/> </a>
 				</p>
-			</div>
-		</footer>
 
+		</footer>
+		</div>
 	</body>
 </html>
 

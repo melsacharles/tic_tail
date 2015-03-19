@@ -66,10 +66,12 @@ p {
  */
 
 
-
+.scroll{
+	overflow-y:scroll;
+}
 
 legend {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight:700;
 	color:rgb(74, 72, 72);
 	letter-spacing:2px;
@@ -99,7 +101,7 @@ h3 {	font-size:13px;
 	font-weight:700;
 	color:rgb(119, 118, 118);
 	letter-spacing:1px;	
-	padding-bottom:5%
+	padding-bottom:5%;
 	
 }
 
@@ -156,15 +158,17 @@ input {
 
 .comments{
 	height:100px;
-	width:800px;
+	width:550px;
 	font-family:"lato";
 	font-size:15px;
-	padding-bottom;
+	margin-bottom:30%;
 }
+
+
 
 .application-form {
 	width: 100%;
-	background-color: #F7F7F7;
+	
 }
 
 .application-form label {
@@ -175,7 +179,7 @@ input {
 .application-form input[type="text"] {
 	width: 20rem;
 	line-height: 1.6rem;
-	border: 1px rgb(161, 161, 161);
+	border: 1px solid rgb(161, 161, 161);
 }
 
 
@@ -188,7 +192,7 @@ footer {
 	width: 100%;
 	background-color: #EDEEF1;
 	text-align: center;
-	text-decoration: none;
+	padding-top: 3% 0 3%;
 }
 
 .lever-logo {
