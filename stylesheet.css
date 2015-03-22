@@ -54,7 +54,6 @@ table {
 
 body {
 	font-family:'Lato';
-
 }
 
 p {
@@ -66,9 +65,9 @@ p {
  */
 
 
-.scroll{
+/*.scroll{
 	overflow-y:scroll;
-}
+}*/
 
 legend {
 	font-size: 16px;
@@ -137,7 +136,7 @@ input {
 }
 
 .tictail-logo {
-	padding-left: .5rem;
+	padding-left:.5rem;
 	height:35px;
 	width:124px;
 }
@@ -150,20 +149,19 @@ input {
 
 .content-form {
 
-	/*padding-left:220px;*/
-	/*background-color:rgb(249, 249, 249);*/
 	color: #515357;
-	/*font-family:'Lato';*/
+
 }
 
 .comments{
 	height:100px;
-	width:550px;
+	width:100%;
 	font-family:"lato";
 	font-size:15px;
-	margin-bottom:30%;
-	color:rgb(158, 158, 158);
-	padding-left:10px;
+	margin-bottom:100px;
+	color:rgb(178, 178, 178);
+	padding:10px;
+	border-color:rgb(226, 226, 226);
 }
 
 
@@ -183,34 +181,41 @@ input {
 	width: 30rem;
 	line-height: 1.6rem;
 	border: 1px solid rgb(226, 226, 226);
-	border-radius: 5px;
+	border-radius: px;
 	padding: 5px 0 5px;
 }
 
-.top-button {
+
+.button {
 	height: 35px;
 	width: 180px;
-	background-color:rgb(240, 240, 240);
-	border:1px solid rgb(226, 226, 226);
-	border-radius:5px;
+	border-radius:3px;
 	font-family:"lato";
 	font-size:14px;
-	color:rgb(48, 48, 48);
-	
-}	
-
 
 }
 
-p #bottom_button {
-	text-align: center;
-	background-color: rgb(66, 143, 245);
-	border-radius: 3px;
-	color: white;
-	height: 35px;
-	width: 170px;
+#top_button {
+	
+	background-color:rgb(240, 240, 240);
+	border:1px solid rgb(226, 226, 226);
+	color:rgb(48, 48, 48);
 }	
 
+
+
+#bottom_button {
+
+	background-color: rgb(87, 159, 255);
+	border: 1px solid rgb(92, 142, 207);
+	border-radius: 3px;
+	color: white;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:80px
+	display:block;
+	
+}	
 
 
 /* 
@@ -218,18 +223,39 @@ p #bottom_button {
  */
 
 footer {
-	height: 200px;
+	height: 180px;
 	width: 100%;
 	background-color: #EDEEF1;
 	text-align: center;
 	padding: 3% 0 3%;
+	font-size:14px;
 }
+
+footer a {
+	text-decoration:none;
+	
+}
+
+.footer-tt-homepage{
+	padding-bottom:40px;
+	
+}
+
+.footer-tt-homepage a {
+	color:#579eee;
+	text-decoration:underline;
+}
+
+.footer-jobs-powered a{
+	color:rgb(102, 101, 101);
+
+
+}
+
 
 .lever-logo {
 	height:24px;
 	width: 98px;
 }
 
-a .footer-tt-homepage{
-	color:red;
-}
+
